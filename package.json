@@ -1,0 +1,23 @@
+{
+  "name": "com.plgamer.renderstatsscanner",
+  "version": "1.0.0",
+  "displayName": "Render Stats Scanner",
+  "description": "Editor tool that watches the Stats panel while you play and screenshots the moment rendering goes wrong. Catches batch spikes relative to a rolling baseline, not just fixed thresholds, and survives exiting Play mode: every event is flushed to disk as it happens, so you get a standalone HTML report pairing each screenshot with the full render stats of that exact frame.",
+  "unity": "2022.3",
+  "keywords": [
+    "profiling",
+    "performance",
+    "batches",
+    "drawcall",
+    "stats",
+    "editor",
+    "tool"
+  ],
+  "author": {
+    "name": "plgamer",
+    "url": "https://github.com/plgamer"
+  },
+  "dependencies": {},
+  "documentationUrl": "https://github.com/plgamer/unity-render-stats-scanner",
+  "licensesUrl": "https://github.com/plgamer/unity-render-stats-scanner/blob/main/LICENSE"
+}
